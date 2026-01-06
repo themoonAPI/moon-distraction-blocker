@@ -1,0 +1,10 @@
+body { margin: 0; background: #000; color: #fff; font-family: Arial; text-align: center; padding: 40px; }
+header { padding: 30px; background: linear-gradient(#1a0033, #000); }
+.logo { width: 200px; border-radius: 50%; box-shadow: 0 0 50px #ff00ff; }
+h1 { font-size: 3em; color: #da70d6; text-shadow: 0 0 20px #ff00ff; }
+#timer { font-size: 5em; color: #ff00ff; text-shadow: 0 0 30px #800080; margin: 40px 0; }
+button { padding: 15px 30px; background: #800080; color: white; border: none; border-radius: 50px; cursor: pointer; font-size: 1.5em; margin: 10px; }
+button:hover { box-shadow: 0 0 30px #ff00ff; }
+input { padding: 15px; width: 300px; background: #1a0033; color: #fff; border: none; border-radius: 50px; font-size: 1.2em; }
+#block-list { list-style: none; max-width: 400px; margin: 0 auto; }
+#block-list li { background: #2a003a; padding: 10px; border-radius: 20px; margin: 10px 0; box-shadow: 0 0 20px #800080; }
