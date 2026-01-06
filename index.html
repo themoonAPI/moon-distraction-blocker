@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon•API Distraction Blocker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Moon Logo" class="logo">
+        <h1>Moon•API Distraction Blocker</h1>
+    </header>
+
+    <main>
+        <div id="timer">25:00</div>
+        <button onclick="startTimer()">Start Pomodoro</button>
+        <button onclick="resetTimer()">Reset</button>
+        <h2>Block List</h2>
+        <input id="block-input" placeholder="Add site (e.g., tiktok.com)">
+        <button onclick="addBlock()">Add</button>
+        <ul id="block-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
